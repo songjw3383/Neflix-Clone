@@ -7,7 +7,7 @@ import Nav from './Nav';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* Navbar */}
       <Nav />
       {/* Banner */}
@@ -21,7 +21,6 @@ function App() {
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}/>
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries}/>
-
     </div>
   );
 }

@@ -1,0 +1,94 @@
+.content {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-color: #111;
+}
+
+
+.content__info {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 0 2rem;
+    flex: 0.4;
+    width: 100%;
+    color: white;
+}
+.content__info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.content__info h5 {
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.content__info__buttons {
+    display: flex;
+    width: 500px;
+}
+.content__info__buttons button {
+    display: flex;
+    margin-right: 1.5rem;
+    height: 30px;
+    padding: 0rem 1rem 0rem 1rem;
+    border: 0.5px solid lightgray;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+.content__info__buttons button:nth-child(1) {
+    background-color: red;
+    border-style: none;
+}
+.content__info__buttons .MuiSvgIcon-root {
+    margin-right: 0.2rem
+}
+
+.content__info__secondLine{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+.content__info__secondLine .MuiSvgIcon-root {
+    margin-right: 1rem;
+}
+
+.vote_average {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.content__img{
+    display: flex;
+    float: right;
+    background-size:contain;
+    flex: 0.6;
+}
+
+.content__img img {
+    width: 100%;
+}
+
+/* @media screen and (max-width: 1440px){
+    .content__info {
+        flex: 0.6;
+    }
+} */
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+

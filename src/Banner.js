@@ -16,7 +16,6 @@ function Banner() {
         fetchData()
     },[])
 
-    console.log(movie);
 
     // set maximum lengths of description 
     function truncate(str, n) {

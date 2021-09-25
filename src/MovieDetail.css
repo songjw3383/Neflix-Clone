@@ -3,7 +3,7 @@
     height: 600px;
     width: 100%;
     display: flex;
-    background-color: #111;
+    background-color: black;
 }
 
 
@@ -41,6 +41,7 @@
     background-color: transparent;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .content__info__buttons button:nth-child(1) {
     background-color: red;
@@ -53,12 +54,15 @@
 .content__info__secondLine{
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
     margin-bottom: 1.5rem;
     align-items: center;
 }
 .content__info__secondLine .MuiSvgIcon-root {
     margin-right: 1rem;
+}
+.content__info__secondLine .random_percent {
+    color: green;
 }
 
 .vote_average {
@@ -72,12 +76,12 @@
 .content__img{
     display: flex;
     float: right;
-    background-size:contain;
     flex: 0.6;
 }
 
 .content__img img {
     width: 100%;
+    display:block
 }
 
 /* @media screen and (max-width: 1440px){
@@ -90,5 +94,6 @@
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
 

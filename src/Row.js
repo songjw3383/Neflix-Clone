@@ -9,7 +9,6 @@ const base_url = "https://image.tmdb.org/t/p/original/"
 
 function Row({ title, fetchUrl, isLargeRow}) {
     const [movies, setMovies] = useState([]);
-    const [trailerUrl, setTrailerUrl] = useState("")
     const [movieVisibility, setMovieVisibility] = useState(false);
     const [movieSelected, setMovieSelection] = useState({});
 
@@ -23,7 +22,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
         fetchData();
     },[fetchUrl])
 
-    console.log(movies)
+    // console.log(movies)
     const handleClick = (movie) => {
         setMovieVisibility(true);
         setMovieSelection(movie);  

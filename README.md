@@ -11,9 +11,10 @@ ReactJs 와 Axios를 사용해 데이터를 요청하는데 중심을 두고 제
 1 명
 
 - **페이지 구성 (flow chart)** 
-![Netflix-dia](https://user-images.githubusercontent.com/56250064/134764391-7a0899b7-bb68-441d-8f75-30f9344943be.png)
+![flow](https://user-images.githubusercontent.com/56250064/134765318-a2f76d65-9fe8-4251-86d9-113a03d550eb.png)
 
-- **gh-pages**
+
+- **gh-pages** : 
 [https://songjw3383.github.io/Netflix-Clone/](https://songjw3383.github.io/Netflix-Clone/)
 
 ## 개발 도구 및 환경

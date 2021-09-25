@@ -11,7 +11,7 @@ ReactJs 와 Axios를 사용해 데이터를 요청하는데 중심을 두고 제
 1 명
 
 - **페이지 구성 (flow chart)** 
-<img src="https://user-images.githubusercontent.com/56250064/134765318-a2f76d65-9fe8-4251-86d9-113a03d550eb.png" width="400" height="300>
+<img src="https://user-images.githubusercontent.com/56250064/134765318-a2f76d65-9fe8-4251-86d9-113a03d550eb.png" width="400" height="300 />
 
 
 - **gh-pages** : 
